@@ -3,7 +3,6 @@ package aplikasi;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 import javax.swing.JOptionPane;
 
@@ -225,7 +224,7 @@ public class Himpunan {
             }
         }
         
-//        Collections.sort(himKuasa);
+        Collections.sort(himKuasa, (String s1, String s2) -> s1.length() - s2.length());
         
         JOptionPane.showMessageDialog(null, "Himpunan Kuasa 2^"+ a +"\n" + helper.himpunanToString(himKuasa), "Himpunan Kuasa", JOptionPane.INFORMATION_MESSAGE);
     }
