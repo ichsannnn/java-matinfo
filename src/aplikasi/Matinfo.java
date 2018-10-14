@@ -21,7 +21,8 @@ public class Matinfo {
                 Himpunan.main(args);
                 break;
             case 2:
-                JOptionPane.showMessageDialog(null, "Ini Matriks", "Matematika Informatika", JOptionPane.INFORMATION_MESSAGE);
+                Matriks.main(args);
+//                JOptionPane.showMessageDialog(null, "Ini Matriks", "Matematika Informatika", JOptionPane.INFORMATION_MESSAGE);
                 break;
             default:
                 JOptionPane.showMessageDialog(null, "Pilihan tidak ada", "Matematika Informatika", JOptionPane.ERROR_MESSAGE);
