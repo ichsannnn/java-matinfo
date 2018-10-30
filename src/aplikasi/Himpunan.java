@@ -55,7 +55,6 @@ public class Himpunan {
                 JOptionPane.showMessageDialog(null, "Pilihan tidak ada", "Aplikasi Himpunan", JOptionPane.ERROR_MESSAGE);
         }
         
-        helper.skadevz();
         aplikasi();
     }
     

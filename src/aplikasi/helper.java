@@ -89,6 +89,28 @@ public class helper {
         return z;
     }
     
+    static String matriksRelasi(ArrayList himA, ArrayList himB) {
+        String matriks;
+        matriks = "   ";
+        for (int i = 0; i < himA.size(); i++) {
+            matriks += himA.get(i) + " ";
+        }
+        matriks += "\n";
+        for (int i = 0; i < himA.size(); i++) {
+            matriks += himB.get(i) + " \t";
+            for (int j = 0; j < himB.size(); j++) {
+                if (i == j) {
+                    matriks += "1";
+                } else {
+                    matriks += "0";
+                }
+                matriks += " ";
+            }
+            matriks += "\n";
+        }
+        return matriks;
+    }
+    
     
     // for testing purpose
     public static void main(String[] args) {

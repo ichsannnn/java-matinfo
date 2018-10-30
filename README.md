@@ -8,3 +8,7 @@ Aplikasi mengenai Matematika Informatika
 * Himpunan Kuasa
 * Himpunan Saling Lepas
 * Operasi Himpunan
+
+## Relasi
+* Sifat Relasi
+* Penyajian Matriks
