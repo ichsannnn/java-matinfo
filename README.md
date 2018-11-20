@@ -10,5 +10,6 @@ Aplikasi mengenai Matematika Informatika
 * Operasi Himpunan
 
 ## Relasi
+* Intro Relasi
 * Sifat Relasi
 * Penyajian Matriks
